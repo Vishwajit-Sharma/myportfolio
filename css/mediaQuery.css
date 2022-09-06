@@ -1,0 +1,712 @@
+@media screen and (max-width: 1200px) {
+    .nav-image img{
+        margin-top: 5px;
+    }
+    .nav-image{
+        padding-right: 0;
+    }
+    .nav-links ul li a{
+        padding: 48px 15px;
+        font-size: 18px;
+    }
+    .intro-div{
+        margin-top: 95px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .welcome-world{
+        font-size: 17px;
+    }
+    .info>h1{
+        font-size: 46px;
+    }
+    .single-a{
+        font-size: 30px;
+    }
+    .developer,.ui,.coder{
+        font-size: 21px;
+        font-weight: 600; 
+    }
+    .details, .see-more-details{
+        font-size: 16px;
+    }
+    .social{
+        padding: 15px 20px;
+    }
+    .myimage img{
+        width: 75%;
+        margin-left: 15%;
+    }
+    .bg-image{
+        width: 75%;
+        margin: 0 12.5%;
+        top: 100px;
+    }
+    .features-outer, .portfolio-outer, .resume-outer, .contact-outer{
+        padding: 0px 15px 30px 15px;
+    }
+    .features-head, .portfolio-head, .resume-head, .contact-head{
+        padding-top: 72px;
+        font-size: 21px;
+    }
+    .features-head+h1, .portfolio-head+h1, .resume-head+h1, .contact-head+h1{
+        font-size: 57px;
+    }
+    .features-box, .portfolio-box{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 30px 30px 5px 30px;
+    }
+    .features-box:hover{
+        padding: 15px 30px;
+    }
+    .features-box-head{
+        font-size: 21px;
+    }
+    .features-box-cont{
+        font-size: 14px;
+    }
+    .portfolio-inner{
+        padding: 20px;
+    }
+    .resume-topic-div{
+        padding: 20px 25px;
+    }
+    .resume-topic-div p{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .resume-topic-div:hover p{
+        font-size: 18px;
+    }
+    .edu-inner, .exp-inner, .cert-inner{
+        padding: 15px 22px;
+    }
+    .edu-inner:hover i, .exp-inner:hover i, .cert-inner:hover i{
+        font-size: 23px;
+    }
+    .edu-inner:hover p, .exp-inner:hover p, .cert-inner:hover p{
+        font-size: 19px;
+    }
+    .edu-inner i, .exp-inner i, .cert-inner i{
+        font-size: 21px;
+    }
+    .edu-inner p, .exp-inner p, .cert-inner p{
+        font-size: 17px;
+    }
+    .tech, .soft{
+        padding: 5px 10px;
+    }
+    .progress-bar-container{
+        margin-bottom: 25px;
+    }
+    .progress-bar {
+        height: 8px;
+        margin-top: 8px;
+    }
+    .tech>p, .soft>p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .con-left, .con-right{
+        padding: 17px;
+    }
+    .con-text h3{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .con-text p{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .copy{
+        padding: 20px;
+        height: 80px;
+     }
+     .copy p{
+        font-size: 21px;
+        font-weight: 500;
+     }
+}
+
+@media screen and (max-width: 992px) {
+    .nav-image{
+        /* padding-top: 10px;
+        margin-top: 5px; */
+        padding-top: 8px;
+    }
+    .nav-image img{
+        width: 45%;
+        border: 2px solid white;
+    }
+    .bio{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .nav-links ul li a{
+        font-weight: 400;
+        font-size: 16px;  
+        padding: 33px 16px;
+    }
+    .nav-links ul li a:hover{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .top{
+        width: 45px;
+        height: 45px;
+    }
+    .intro-div{
+        margin-top: 60px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .welcome-world{
+        font-size: 14px;
+    }
+    .info>h1{
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .single-a{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .developer,.ui,.coder{
+        font-size: 15px;
+        font-weight: 500; 
+    }
+    .details, .see-more-details{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    .social{
+        padding: 10px 15px;
+    }
+    .fb, .ig, .ld{
+        font-size: 21px;
+    }
+    .social:hover .fb, .social:hover .ig, .social:hover .ld{
+        font-size: 23px;
+    }
+    .myimage{
+        margin-top: 50px;
+    }
+    .myimage img{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .bg-image{
+        /* width: 70%;
+        margin: 50px 15% 0 15%;
+        height: 250px;
+        top: 80px; */
+        display: none;
+    }
+    /* .myimage:hover .bg-image{
+        height: 270px;
+        top: 75px;
+    } */
+    .features-outer, .portfolio-outer, .resume-outer, .contact-outer{
+        padding: 0px 12px 24px 12px;
+    }
+    .features-head, .portfolio-head, .resume-head, .contact-head{
+        padding-top: 60px;
+        font-size: 20px;
+    }
+    .features-head+h1, .portfolio-head+h1, .resume-head+h1, .contact-head+h1{
+        font-size: 53px;
+    }
+    .features-box-head{
+        font-size: 23px;
+    }
+    .features-box-cont{
+        font-size: 16px;
+    }
+    .resume-topic-div{
+        padding: 12px 8px;
+    }
+    .resume-topic-div p{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .resume-topic-div:hover p{
+        font-size: 15px;
+    }
+    .edu-inner, .exp-inner, .cert-inner{
+        padding: 12px 17px;
+    }
+    .edu-inner:hover i, .exp-inner:hover i, .cert-inner:hover i{
+        font-size: 21px;
+    }
+    .edu-inner:hover p, .exp-inner:hover p, .cert-inner:hover p{
+        font-size: 17px;
+    }
+    .edu-inner i, .exp-inner i, .cert-inner i{
+        font-size: 19px;
+    }
+    .edu-inner p, .exp-inner p, .cert-inner p{
+        font-size: 15px;
+    }
+    .deg{
+        font-size: 15px;
+        padding: 3px;
+    }
+    .edu-inner:hover .deg, .exp-inner:hover .deg, .cert-inner:hover .deg{
+        font-size: 17px;
+        padding: 5px;
+    }
+    .tech, .soft{
+        padding: 3px 7px;
+    }
+    .progress-bar-container {
+        margin-bottom: 20px;
+    }
+    .progress-bar {
+        height: 7px;
+        margin-top: 7px;
+    }
+    .tech>p, .soft>p{
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .progress-bar-container h2 span{
+        font-size: 11px;
+    }
+    .con-left, .con-right{
+        padding: 13px;
+    }
+    .con-text h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .con-text p{
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .con-social{
+        width: 60%;
+    }
+    .con-text a{
+        font-size: 30px;
+    }
+    .con-text a:hover{
+        font-size: 34px;
+    }
+    .copy{
+        padding: 15px;
+        height: 65px;
+     }
+     .copy p{
+        font-size: 18px;
+        font-weight: 500;
+     }
+}
+
+@media screen and (max-width: 768px) {
+    .bio{
+        display: none;
+    }
+    .nav-image{
+        margin-top: 2px;
+        padding: 8px;
+        
+    }
+    .nav-image img{
+        width: 100%;
+        border: 1px solid white;
+    }
+    .nav-links ul li a{
+        font-weight: 300;
+        font-size: 12px;  
+        padding: 25px 14px;
+    }
+    .nav-links ul li a:hover{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .top{
+        width: 40px;
+        height: 40px;
+        bottom: 25px;
+        right: 25px;
+    }
+    .top i{
+        font-size: 12px;
+    }
+    .intro-div{
+        margin-top: 30px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .welcome-world{
+        font-size: 11px;
+        padding-top: 25px;
+        margin-bottom: 12px;
+    }
+    .info>h1{
+        font-size: 31px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    .single-a{
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .developer,.ui,.coder{
+        font-size: 14px;
+        font-weight: 400; 
+    }
+    .details, .see-more-details{
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    .see-more,.see-less{
+        font-size: 10px;
+    }
+    .see-more:hover, .see-less:hover{
+        font-size: 10.5px;
+    }
+    .social{
+        padding: 5px 10px;
+    }
+    .fb, .ig, .ld{
+        font-size: 18px;
+    }
+    .social:hover .fb, .social:hover .ig, .social:hover .ld{
+        font-size: 19px;
+    }
+    .myimage{
+        margin-top: 30px;
+    }
+    .myimage img{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .features-head, .portfolio-head, .resume-head, .contact-head{
+        padding-top: 40px;
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+    .features-head+h1, .portfolio-head+h1, .resume-head+h1, .contact-head+h1{
+        font-size: 45px;
+    }
+    .features-box, .portfolio-box{
+        margin-top: 7px;
+        margin-bottom: 7px;
+        padding: 25px 25px 3px 25px;
+    }
+    .features-box-head{
+        font-size: 18px;
+    }
+    .features-box-cont{
+        font-size: 12px;
+    }
+    .features-box:hover{
+        padding: 13px 25px;
+    }
+    .resume-topic-div{
+        padding: 10px 5px;
+    }
+    .resume-topic-div p{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .resume-topic-div:hover p{
+        font-size: 18px;
+    }
+    .edu-inner, .exp-inner, .cert-inner{
+        padding: 8px 10px;
+    }
+    .edu-inner:hover i, .exp-inner:hover i, .cert-inner:hover i{
+        font-size: 19px;
+    }
+    .edu-inner:hover p, .exp-inner:hover p, .cert-inner:hover p{
+        font-size: 15px;
+    }
+    .edu-inner i, .exp-inner i, .cert-inner i{
+        font-size: 17px;
+    }
+    .edu-inner p, .exp-inner p, .cert-inner p{
+        font-size: 13px;
+    }
+    .deg{
+        font-size: 13px;
+        padding: 3px;
+        width: 25%;
+    }
+    .edu-inner:hover .deg, .exp-inner:hover .deg, .cert-inner:hover .deg{
+        font-size: 15px;
+        padding: 5px;
+        width: 30%;
+    }
+    .tech, .soft{
+        padding: 3px 7px;
+    }
+    .progress-bar-container {
+        margin-bottom: 14px;
+    }
+    .progress-bar {
+        height: 5px;
+        margin-top: 5px;
+    }
+    .tech>p, .soft>p{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .progress-bar-container h2 {
+        letter-spacing: 2px;
+    }
+    .progress-bar-container h2 span{
+        font-size: 10px;
+    }
+    .con-left, .con-right{
+        padding: 8px;
+    }
+    .con-left:hover .con-img img{
+        transform: scale(1.1,1.1);
+    }
+    .con-text h3{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .con-text p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .con-social{
+        width: 55%;
+    }
+    .con-text a{
+        font-size: 25px;
+    }
+    .con-text a:hover{
+        font-size: 28px;
+    }
+    .copy{
+        padding: 15px;
+        height: 65px;
+     }
+     .copy p{
+        font-size: 16px;
+        font-weight: 400;
+     }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .navbar-toggler{
+        display: inline-block;
+        border: 1px solid gainsboro;
+        padding: 5px 8px;
+    }
+    .navbar-toggler-icon{
+        width: 2em;
+    }
+    .navbar-toggler-icon i{
+        font-size: 30px;
+        color: gainsboro;
+    }
+
+    .nav-image img{
+        width: 25%;
+        border: 1px solid white;
+    }
+    .nav-image{
+        padding-left: 25px;
+        margin-top: 0;
+        padding-right: 35px;
+        padding-top: 15px;
+        justify-content: space-between;
+    }
+    .bio{
+        display: inline-block;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links ul{
+        padding-left: 0;
+    }
+    .nav-links ul li a{
+        width: 100%;
+        font-weight: 400;
+        font-size: 15px;  
+        padding: 12px 0;
+        text-align: center;
+    }
+    .nav-links ul li a:hover{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .top{
+        width: 30px;
+        height: 30px;
+        bottom: 20px;
+        right: 20px;
+    }
+    .top i{
+        font-size: 11px;
+    }
+    .intro-div{
+        margin-top: 50px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .welcome-world{
+        font-size: 10px;
+        padding-top: 15px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    .info>h1{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .sub-head{
+        text-align: center;
+    }
+    .single-a{
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .developer,.ui,.coder{
+        font-size: 10px;
+        font-weight: 400; 
+    }
+    .main-image-div{
+        display: block;
+        width: 60%;
+        margin-left: 20%;
+        padding: 10px;
+        text-align: center;
+    }
+    .main-image-div img{
+        width: 80%;
+    }
+    .details, .see-more-details{
+        margin-top: 15px;
+        font-size: 11px;
+    }
+    .see-more,.see-less{
+        font-size: 11px;
+    }
+    .see-more:hover, .see-less:hover{
+        font-size: 12px;
+    }
+    .social{
+        padding: 5px 10px;
+    }
+    .fb, .ig, .ld{
+        font-size: 18px;
+    }
+    .social:hover .fb, .social:hover .ig, .social:hover .ld{
+        font-size: 19px;
+    }
+    .myimage{
+        margin-top: 30px;
+        display: none;
+    }
+    .myimage img{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .features-head, .portfolio-head, .resume-head, .contact-head{
+        padding-top: 30px;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .features-head+h1, .portfolio-head+h1, .resume-head+h1, .contact-head+h1{
+        font-size: 35px;
+    }
+    .features-box, .portfolio-box{
+        padding: 20px 20px 3px 20px;
+    }
+    .features-box:hover{
+        padding: 10px 20px;
+    }
+    .features-box-head{
+        font-size: 20px;
+    }
+    .features-box-cont{
+        font-size: 12px;
+    }
+    .resume-topic-div{
+        padding: 10px 5px;
+    }
+    .resume-topic-div p{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .resume-topic-div:hover p{
+        font-size: 18px;
+    }
+    .edu-inner, .exp-inner, .cert-inner{
+        padding: 15px 25px;
+    }
+    .edu-inner:hover i, .exp-inner:hover i, .cert-inner:hover i{
+        font-size: 23px;
+    }
+    .edu-inner:hover p, .exp-inner:hover p, .cert-inner:hover p{
+        font-size: 19px;
+    }
+    .edu-inner i, .exp-inner i, .cert-inner i{
+        font-size: 21px;
+    }
+    .edu-inner p, .exp-inner p, .cert-inner p{
+        font-size: 14px;
+    }
+    .deg{
+        font-size: 17px;
+        padding: 3px;
+        width: 20%;
+    }
+    .edu-inner:hover .deg, .exp-inner:hover .deg, .cert-inner:hover .deg{
+        font-size: 19px;
+        padding: 5px;
+        width: 23%;
+    }
+    .con-left, .con-right{
+        padding: 12px;
+    }
+   
+    .con-left:hover .con-img img{
+        transform: scale(1.2,1.2);
+    }
+    .con-text h3{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .con-text p{
+        font-size: 15px;
+    }
+    .con-social{
+        width: 50%;
+    }
+    .con-text a{
+        font-size: 32px;
+    }
+    .con-text a:hover{
+        font-size: 35px;
+    }
+    input[type="submit"]{
+        font-size: 12px;
+        letter-spacing: 1px;
+     }
+     input[type="submit"]:hover{
+         font-size: 14px;
+      }
+      .copy{
+        padding: 10px;
+        height: 50px;
+     }
+     .copy p{
+        font-size: 13px;
+        font-weight: 400;
+     }
+    
+}
