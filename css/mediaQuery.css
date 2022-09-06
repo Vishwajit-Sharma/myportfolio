@@ -513,7 +513,7 @@
     .nav-image img{
         width: 25%;
         border: 1px solid white;
-        margin-top: 2px;
+        margin-top: 0;
     }
     .nav-image{
         padding-left: 25px;
